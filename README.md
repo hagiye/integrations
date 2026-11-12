@@ -8,6 +8,7 @@ tests. There is no workspace at the root.
 
 | Package | What it is |
 | --- | --- |
+| [packages/etrade-integration](packages/etrade-integration/) | `@edr/etrade-integration`: Ministry of Trade e-trade lookups by TIN and licence number, TLS verified with the missing issuing CA bundled, a TIN lookup budget, licence snapshots refused or flagged when expired or cancelled, and no public route by default |
 
 ## Working on a package
 
