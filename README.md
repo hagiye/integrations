@@ -9,6 +9,7 @@ tests. There is no workspace at the root.
 | Package | What it is |
 | --- | --- |
 | [packages/etrade-integration](packages/etrade-integration/) | `@edr/etrade-integration`: Ministry of Trade e-trade lookups by TIN and licence number, TLS verified with the missing issuing CA bundled, a TIN lookup budget, licence snapshots refused or flagged when expired or cancelled, and no public route by default |
+| [packages/fayda-integration](packages/fayda-integration/) | `@edr/fayda-integration`: Fayda national ID through eSignet OpenID Connect, with PKCE, nonce and a private_key_jwt client assertion, the ID token and signed userinfo verified against eSignet's keys, single-use sessions bound to the starting browser, identities linked by subject and never merged by phone or email, and signed proofs of a fresh verification |
 
 ## Working on a package
 
