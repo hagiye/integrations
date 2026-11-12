@@ -8,6 +8,7 @@ tests. There is no workspace at the root.
 
 | Package | What it is |
 | --- | --- |
+| [packages/gps-integration](packages/gps-integration/) | `@edr/gps-integration`: GT06 (Concox) GPS trackers over TCP, registered devices only, a decoder that never throws on device input, fix checks (no fix, impossible coordinates, clock skew, duplicates, jumps), and overspeed, idle, offline and geofence alerts with a cooldown |
 
 ## Working on a package
 
