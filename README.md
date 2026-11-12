@@ -11,6 +11,7 @@ tests. There is no workspace at the root.
 | [packages/etrade-integration](packages/etrade-integration/) | `@edr/etrade-integration`: Ministry of Trade e-trade lookups by TIN and licence number, TLS verified with the missing issuing CA bundled, a TIN lookup budget, licence snapshots refused or flagged when expired or cancelled, and no public route by default |
 | [packages/fayda-integration](packages/fayda-integration/) | `@edr/fayda-integration`: Fayda national ID through eSignet OpenID Connect, with PKCE, nonce and a private_key_jwt client assertion, the ID token and signed userinfo verified against eSignet's keys, single-use sessions bound to the starting browser, identities linked by subject and never merged by phone or email, and signed proofs of a fresh verification |
 | [packages/gps-integration](packages/gps-integration/) | `@edr/gps-integration`: GT06 (Concox) GPS trackers over TCP, registered devices only, a decoder that never throws on device input, fix checks (no fix, impossible coordinates, clock skew, duplicates, jumps), and overspeed, idle, offline and geofence alerts with a cooldown |
+| [packages/mor-eims-integration](packages/mor-eims-integration/) | `@edr/mor-eims-integration`: Ministry of Revenues EIMS e-invoicing: signed login and calls, invoices and credit/debit notes with a durable gapless sequence (ambiguous answers block until resolved, never resent), sales receipts per payment, cancellation, bulk filing with a callback checked by /v1/verify, INSA key rotation without overlap, a redacted exchange log |
 
 ## Working on a package
 
